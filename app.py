@@ -1,8 +1,4 @@
-# site com os scripts: https://cdnjs.com/
-# bibliotecas a instalar: 
-    # Flask – pip install flask
-    # Socketio – pip install python-socketio / pip install flask-socketio
-    # Simple Websocket – pip install simple-websocket
+
 
 from flask import Flask, render_template # estruturas para criar o site
 from flask_socketio import SocketIO, send # estruturas para criar o chat
